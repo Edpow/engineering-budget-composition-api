@@ -1,0 +1,25 @@
+{
+  "name": "engineering-budget-composition-api",
+  "version": "1.0.0",
+  "description": "A simple API for searching of compositions for engeneering budgets",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edpow/engineering-budget-composition-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edpow/engineering-budget-composition-api/issues"
+  },
+  "homepage": "https://github.com/Edpow/engineering-budget-composition-api#readme",
+  "dependencies": {
+    "next": "^13.4.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
