@@ -1,9 +1,6 @@
-function tempo(request, response){
+function handler(req, res) {
     const dynamicDate = new Date();
-
-    response.json({
-        date: dynamicDate
-    });
+    res.status(200).json({ date: dynamicDate.toLocaleDateString() });
 }
 
-export default tempo;
+export default handler;
