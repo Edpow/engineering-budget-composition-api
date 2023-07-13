@@ -1,9 +1,4 @@
-function tempo(req, res) {
+export default function handler(req, res) {
     const dynamicDate = new Date();
-
-    res.json({
-        date: dynamicDate.toISOString()
-    })
-};
-
-export default tempo
+    res.status(200).json({ date: dynamicDate.toUTCString() })
+  }
